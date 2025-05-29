@@ -1,0 +1,224 @@
+
+
+
+@media screen and (max-width:428px) {
+    .navbar h1{
+        color: rgb(104, 104, 235);
+        text-align: start; 
+    } 
+    .navbar a{
+        text-decoration: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+         justify-content: space-evenly; 
+        border: 3px solid;
+       background-color: rgb(127, 231, 231);
+       /* position:fixed; */
+    }
+    .navbar ul{
+        list-style-type:none;
+    }
+    .navlink {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navlink a{
+        margin: 10px;
+        color: black;
+    }
+    #home img{
+        height:40vw;
+         width:35vh;
+       }
+   #home{
+     background-color:rgb(144, 213, 190);
+      display: flex;  
+       flex-direction:column; 
+       flex-wrap: wrap;
+    }
+   .homedivone{
+    width:100%; 
+   }
+   .homedivtwo{
+   text-align:center; 
+   display: flex; 
+   flex-direction:column; 
+   line-height: 1.2rem; 
+   margin-left:0.5%;
+   }
+   .homedivtwo h3{
+   color: rgb(137, 137, 228);
+   font-size: 1.2rem;
+   }
+   .homedivtwo p{
+   color: white;
+   font-size:1rem;
+   }
+   .homedivtwo.btn{
+   height: 2rem;
+   width: 7rem;
+   margin-left:1%;
+    display:flex;
+    align-self:self-start;
+   }
+   button{
+    background-color: rgb(104, 104, 215);
+    margin-left:1.5%;
+    border-radius:1%;
+   }
+   .homesec{
+    margin-top:1%;
+    background-color: rgb(41, 41, 145);
+ }
+   .homesecparnt{
+     display: flex; 
+    flex-direction: column;
+     align-items: center; 
+ }
+ .homesecparnt1,.homesecparnt2,.homesecparnt3,.homesecparnt4{
+      height: 20vh;  
+      width:100%;  
+    background-color: rgb(243, 235, 225);
+    border: 1px solid;
+    margin: 0.1%;
+    align-content: space-between;
+    line-height: 1.7rem;
+    text-align: center;
+ }
+ .homesecparnt1 i,.homesecparnt2 i,.homesecparnt3 i,.homesecparnt4 i{
+    color: blue;
+ }
+ #about{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(177, 212, 200);
+    text-align: center;
+ }
+  .aboutdiv1 img{
+    height: 30vh;
+    width: 90vw;
+ } 
+#one i{
+    color: rgb(30, 30, 215); 
+}
+.aboutdiv3,.aboutdiv4{
+    display: flex;
+}
+.aboutdiv5 button{
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(123, 123, 223);
+}
+#courses{
+    background-color: rgb(127, 235, 201);
+}
+.courseparent{
+     display: flex;
+     flex-direction:column;
+     flex-wrap: wrap;
+     align-items: center;
+}
+.coursediv1chld1 img{
+    height: 30vh; 
+    width:90vw; 
+}
+.div1two img{
+    height: 30vh; 
+   width: 90vw;
+}
+.div1one img{
+     height: 30vh;
+    width: 90vw;
+}
+.coursediv1chld2{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:space-between; 
+    text-align:center;
+} 
+.coursediv2 img{
+     height: 30vh;
+     width: 90vw;
+}
+#popularcourses{
+    background-color: rgb(101, 180, 154);
+}
+#student1 img,#student2 img,#student3 img{
+    height: 30vh;
+    width: 90vw;
+}
+.student{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.john{
+    border: 1px solid;
+    align-content:space-evenly ;
+}
+.contactchild1 img,.contactchild2 img,.contactchild3 img,.contactchild4 img{
+    height: 50vh;
+    width: 90vw;
+}
+.contactdiv1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+}
+#contact{
+    margin-top:0.5%;
+    background-color: rgb(91, 143, 126);
+}
+#designation{
+    color: blue;
+    align-content: space-between;
+}
+.studentparent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:0.5%
+  }
+  .parentchld1 img,.parentchld2 img,.parentchld3 img{
+    clip-path: circle(40%);
+  }
+  footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+   .footer1,.footer2,.footer3,.footer4{ 
+              margin:0.5%;
+             line-height: 1.5rem;
+             color: white;
+  }
+  .gallery{
+    height:15vh; 
+    width: 15vw;
+    border:1px solid white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  }
+  .galimg{
+    border: 1px solid white;
+    object-fit:cover;
+     margin:2%; 
+    flex-wrap: wrap;
+}
+  img{
+     height: 3vh;
+     width:3vw;
+  }
+}

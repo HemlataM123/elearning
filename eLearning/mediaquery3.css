@@ -1,0 +1,44 @@
+
+
+
+@media screen and (max-width:768px) {
+    .homesec{
+        margin-top:1%;
+        background-color: rgb(213, 213, 240);
+     }
+     .homesecparnt{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        text-align: center;
+     }
+     .homesecparnt1,.homesecparnt2,.homesecparnt3,.homesecparnt4{
+         height: 20vh; 
+         width:100%;
+        background-color: rgb(243, 235, 225);
+        border: 1px solid;
+        margin: 0.5%;
+        align-content: space-between;
+        line-height: 1.7rem;
+     }
+     .homesecparnt1 i,.homesecparnt2 i,.homesecparnt3 i,.homesecparnt4 i{
+        color: blue;
+        padding: 2%;
+      }
+}
+.gallery{
+   height:22vh; 
+   width: 15vw;
+   border:1px solid white;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap; 
+ }
+ .galimg{
+    height: 3vh;
+    width:4vw;
+   border: 1px solid white;
+   object-fit: cover;
+    margin:5px; 
+   flex-wrap: wrap;
+ }
